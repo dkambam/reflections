@@ -43,3 +43,9 @@ one instead of another?
 
 	I would use branch when I would like to start a new feature / experiment 
 	with the state of the code.
+
+
+What is the benefit of having a copy of the last known state of the remote 
+stored locally?
+
+	Work offline. Enables merge with any updates in remote.
