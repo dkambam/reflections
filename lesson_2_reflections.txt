@@ -60,3 +60,12 @@ the diagram the way we do?
 
 	The result is a new commit with multiple parents-- representing the branches 
 	merged. 
+
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+	
+	Git automates much of the merge process by deferring control to user only 
+	when necessasry. The alternative -- merging everything by manually comparing
+	code line by line would be too tedious.
