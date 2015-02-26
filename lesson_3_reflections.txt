@@ -6,6 +6,7 @@ local?
   2. When I am collaborating with others on a common project.
 
 
+
 Why might you want to always pull changes manually rather than having Git 
 automatically stay up-to-date with your remote repository?
 
@@ -15,3 +16,30 @@ automatically stay up-to-date with your remote repository?
 		Get what you need. Change it. Update the remote copy.
 
 
+
+Describe the differences between forks, clones, and branches. When would you use
+one instead of another?
+
+	Forks -- clones on GitHub machines. 
+		Include additional mechanism to:
+		1. track number of forks for each repo.
+		2. link to source repo
+
+	Clone -- copy of a repository
+
+	Branch -- is a label to a commit.
+
+	I would use forks when:
+	1. I don't have permissions to change the original repo.
+	2. I'd like to make modifications to a repo but leave the original repo 
+	   intact. 
+	3. When I want to indicate my code builds on a different repo and link to 
+	   it.
+
+
+	I would use clones when I'd like to make local copies of my repo. 
+	either from remote or local repo. as source.
+
+
+	I would use branch when I would like to start a new feature / experiment 
+	with the state of the code.
