@@ -4,6 +4,7 @@ What happens when you initialize a repository? Why do you need to do it?
 	current folder. This would setup git to start tracking files.
 
 
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
@@ -15,7 +16,27 @@ What value do you think it offers?
 
 
 
-How can you use the staging area to make sure you have one commit per logical change?
+How can you use the staging area to make sure you have one commit per logical 
+change?
 
-	Add only the file(s) with a particular logical change to the staging area. Then commit the changes in the staging area. This ensures we have one logical change per commit.
-	
+	Add only the file(s) with a particular logical change to the staging area. 
+	Then commit the changes in the staging area. This ensures we have one 
+	logical change per commit.
+
+
+
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+	Branches would be helpful when:
+	1. testing experimental changes
+	2. devleoping different versions of the code
+
+	Different versions of code are logically seperate yet related as they belong
+	to the same code base. Branches provide a convenient and easy mechanism to 
+	honor this relationship. They keep different versions seperate by providing 
+	branch diffrent labels. They also enable us to keep them together within the
+	same repository. 
+
+	Additionally, there is no overhead and associated complexity of the simplest
+	alternative -- a nested fodler structure.
