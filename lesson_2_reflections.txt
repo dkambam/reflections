@@ -53,3 +53,10 @@ How do the diagrams help you visualize the branch structure?
 	5. There can be unreachable commits
 	6. Making commits brings the branch label along with us
 
+
+
+What is the result of merging two branches together? Why do we represent it in 
+the diagram the way we do?
+
+	The result is a new commit with multiple parents-- representing the branches 
+	merged. 
