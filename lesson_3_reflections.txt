@@ -49,3 +49,19 @@ What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
 	Work offline. Enables merge with any updates in remote.
+
+
+
+
+How would you collaborate without using Git or GitHub? What would be easier, and
+what would be harder?
+
+	I would collaborate by emailing raw code. It would be harder to track 
+	changes and if there were more than 2-3 collaborators. Especially,
+	if the number of changes / collaborators was big. 
+
+	It would be even more diofficult if they were all working on projects 
+	concurrently simultaneously. 
+
+	It would be easier for managing very small changes as the comments in email 
+	would suffice.
