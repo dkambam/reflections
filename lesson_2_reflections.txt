@@ -40,3 +40,16 @@ organized? How would branches help?
 
 	Additionally, there is no overhead and associated complexity of the simplest
 	alternative -- a nested fodler structure.
+
+
+
+How do the diagrams help you visualize the branch structure?
+	
+	They help concisely and clearly represent the following information:
+	1. Git commits have parents
+	2. Git branches are labels
+	3. The concept of a checked-out branch (represented by a *)
+	4. Reachability: tracing back from the tip-of-a-branch
+	5. There can be unreachable commits
+	6. Making commits brings the branch label along with us
+
