@@ -1,0 +1,17 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Git creates a metadata folder in the folder to make repository form the 
+	current folder. This would setup git to start tracking files.
+
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+	Staging area is a seperate conceptual space that contains a subset or all of
+	the files from the current working directory. It is part of the repository 
+	as a part of it's metadata. It is useful to select & collect a subset of 
+	files from the working directory and commit them seperately (i.e) it allows 
+	us the option of commiting a subset of files and not all of them.
+
+
+
