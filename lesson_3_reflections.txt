@@ -65,3 +65,16 @@ what would be harder?
 
 	It would be easier for managing very small changes as the comments in email 
 	would suffice.
+
+
+
+When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+	Any risky or expertimental change would be done in a seperate branch. 
+	Developing a new feature would also be better suited in a new branch.
+	This reduces the risk of breaking existing code. 
+
+	Developing in a new branch could result in potential merge conflicts at a 
+	later stage.
+
